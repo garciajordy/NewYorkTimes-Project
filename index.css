@@ -25,6 +25,7 @@ li a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 #space {
   font-weight: 900;
 }
@@ -217,6 +218,7 @@ iframe {
 .buttonCon img {
   margin-left: 12px;
 }
+
 #buttonCom {
   text-transform: uppercase;
   color: white;
@@ -285,7 +287,7 @@ iframe {
   grid-area: fourth;
 }
 
-.first1 > p,
+.first1 p,
 h3 {
   line-height: 2px;
 }
@@ -298,7 +300,7 @@ h3 {
   grid-area: fifth;
 }
 
-.first2 > p,
+.first2 p,
 h3 {
   line-height: 2px;
 }
@@ -311,7 +313,7 @@ h3 {
   grid-area: sixth;
 }
 
-.first3 > p,
+.first3 p,
 h3 {
   line-height: 2px;
 }
@@ -334,9 +336,21 @@ h3 {
   border-top: black solid 1px;
   grid-template-areas: "text text text" "vid1 vid2 none" "vid3 vid4 vid5";
 }
+
+.top h4 {
+  font-weight: bolder;
+}
+
+.top h4:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .secondLeft h4:hover {
   color: #333;
 }
+
 .second1,
 .second2,
 .second3,
@@ -373,6 +387,7 @@ h3 {
   grid-area: vid5;
   margin-top: -85px;
 }
+
 .second1,
 .second2,
 .second3,
@@ -484,6 +499,7 @@ h3 {
   box-shadow: black 0 2px 5px;
   cursor: pointer;
 }
+
 .editorsCon {
   width: 15%;
   height: 350px;
@@ -493,6 +509,7 @@ h3 {
   right: 50px;
   top: 1600px;
 }
+
 .editorsPic {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -501,12 +518,14 @@ h3 {
   border-top: rgb(209, 209, 209) solid 1px;
   padding-top: 15px;
 }
+
 .editor2,
 .editor4,
 .editor6 {
   color: #333;
   font-size: 15px;
 }
+
 .editor2:hover,
 .editor4:hover,
 .editor6:hover {
@@ -634,16 +653,6 @@ span {
 .top {
   line-height: -20px;
   border-bottom: rgb(187, 187, 187) solid 1px;
-}
-
-.top h4 {
-  font-weight: bolder;
-}
-
-.top h4:hover {
-  color: black;
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .top p {
