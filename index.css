@@ -13,6 +13,11 @@ ul {
 	border-bottom: rgb(219, 219, 219) solid 1px;
 }
 
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
 li {
 	float: left;
 }
@@ -103,7 +108,7 @@ nav {
 	margin-left: 20%;
 }
 
-strong>a {
+strong  a {
 	color: rgb(0, 0, 0);
 }
 
@@ -124,13 +129,29 @@ iframe {
 	text-align: left;
 	color: #888;
 }
+.footerCon {
+	border-top: black double 1px;
+	border-bottom: rgb(209, 209, 209) solid 1px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 50px 1fr;
+	grid-template-areas: "text text text text text text" "news opinion arts living more subscribe";
+	margin: -200px 50px 0;
+}
+
+.footer2Con a {
+	color: rgb(116, 116, 116);
+	float: left;
+	margin-right: 15px;
+}
+
 
 #subs {
 	font-size: 13px;
 	line-height: normal;
 }
 
-#subs>a {
+#subs  a {
 	color: #333;
 }
 
@@ -166,6 +187,9 @@ iframe {
 	display: grid;
 	grid-template-rows: 1fr 2fr 1fr;
 }
+.rightDiv a:hover {
+	color: rgb(133, 133, 133);
+}
 
 .rightDiv {
 	border-top: black solid 1px;
@@ -184,6 +208,13 @@ iframe {
 	font-weight: 700;
 	line-height: 20px;
 }
+.firstLeft a {
+	color: blue;
+}
+
+.firstLeft a:hover {
+	text-decoration: underline;
+}
 
 .firstLeft {
 	display: grid;
@@ -193,7 +224,7 @@ iframe {
 	grid-template-areas: "first second third" "fourth fifth sixth";
 }
 
-.firstLeft>p {
+.firstLeft > p {
 	grid-area: third;
 	text-align: right;
 }
@@ -206,7 +237,7 @@ iframe {
 	grid-area: fourth;
 }
 
-.first1>p,
+.first1 > p,
 h3 {
 	line-height: 2px;
 }
@@ -219,7 +250,7 @@ h3 {
 	grid-area: fifth;
 }
 
-.first2>p,
+.first2 > p,
 h3 {
 	line-height: 2px;
 }
@@ -232,7 +263,7 @@ h3 {
 	grid-area: sixth;
 }
 
-.first3>p,
+.first3 > p,
 h3 {
 	line-height: 2px;
 }
@@ -320,20 +351,6 @@ h3 {
 	margin-left: -45px;
 }
 
-.footerCon {
-	border-top: black double 1px;
-	border-bottom: rgb(209, 209, 209) solid 1px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 50px 1fr;
-	grid-template-areas: "text text text text text text" "news opinion arts living more subscribe";
-	margin: -200px 50px 0;
-}
-
-a {
-	text-decoration: none;
-	color: rgb(0, 0, 0);
-}
 
 .news {
 	grid-area: news;
@@ -370,7 +387,7 @@ a {
 	text-decoration: underline;
 }
 
-.thirdLeft>figcaption,
+.thirdLeft > figcaption,
 h4:hover {
 	color: rgb(56, 56, 56);
 }
@@ -411,17 +428,7 @@ h4:hover {
 	cursor: pointer;
 }
 
-.firstLeft a {
-	color: blue;
-}
 
-.firstLeft a:hover {
-	text-decoration: underline;
-}
-
-.rightDiv a:hover {
-	color: rgb(133, 133, 133);
-}
 
 .text {
 	max-width: 45%;
@@ -558,11 +565,6 @@ span {
 	font-size: 12px;
 }
 
-.footer2Con a {
-	color: rgb(116, 116, 116);
-	float: left;
-	margin-right: 15px;
-}
 
 .footer2Con a:hover {
 	text-decoration: black underline;
