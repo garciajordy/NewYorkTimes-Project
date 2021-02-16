@@ -13,11 +13,6 @@ ul {
   border-bottom: rgb(219, 219, 219) solid 1px;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
-
 li {
   float: left;
 }
@@ -37,10 +32,7 @@ li a {
 
 .navimg {
   transition: 410ms;
-}
-
-.navimg:hover {
-  background-color: gray;
+  background-color: white;
 }
 
 .navBarRight {
@@ -85,6 +77,7 @@ nav {
   right: 0;
   background-color: white;
   box-shadow: gray 0 0 2px;
+  z-index: 1;
 }
 
 .body {
@@ -139,7 +132,10 @@ iframe {
   grid-template-areas: "text text text text text text" "news opinion arts living more subscribe";
   margin: -200px 50px 0;
 }
-
+.footerCon a {
+  color: black;
+  text-decoration: none;
+}
 .footer2Con a {
   color: rgb(116, 116, 116);
   float: left;
@@ -148,6 +144,7 @@ iframe {
 
 .firstLeft a {
   color: blue;
+  text-decoration: none;
 }
 
 .firstLeft a:hover {
@@ -296,7 +293,9 @@ h3 {
   border-top: black solid 1px;
   grid-template-areas: "text text text" "vid1 vid2 none" "vid3 vid4 vid5";
 }
-
+.secondLeft h4:hover {
+  color: #333;
+}
 .second1,
 .second2,
 .second3,
@@ -333,6 +332,13 @@ h3 {
   grid-area: vid5;
   margin-top: -85px;
 }
+.second1,
+.second2,
+.second3,
+.second4,
+.second5:hover {
+  cursor: pointer;
+}
 
 .thirdLeft {
   display: grid;
@@ -359,6 +365,12 @@ h3 {
   grid-area: pic3;
   margin-top: 25px;
   margin-left: -45px;
+}
+
+.third1,
+.third2,
+.third3:hover {
+  cursor: pointer;
 }
 
 .news {
@@ -392,8 +404,7 @@ h3 {
   font-size: 15px;
 }
 
-.thirdLeft > figcaption,
-h4:hover {
+.thirdLeft figcaption h4:hover {
   color: rgb(56, 56, 56);
 }
 
@@ -430,6 +441,41 @@ h4:hover {
 
 .first3:hover {
   box-shadow: black 0 2px 5px;
+  cursor: pointer;
+}
+.editorsCon {
+  width: 15%;
+  height: 350px;
+  display: grid;
+  grid-template-rows: 50px 300px;
+  position: absolute;
+  right: 50px;
+  top: 1600px;
+}
+.editorsPic {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 80px 80px 80px;
+  column-gap: 10px;
+  border-top: rgb(209, 209, 209) solid 1px;
+  padding-top: 15px;
+}
+.editor2,
+.editor4,
+.editor6 {
+  color: #333;
+  font-size: 15px;
+}
+.editor2:hover,
+.editor4:hover,
+.editor6:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.editor1,
+.editor3,
+.editor5:hover {
   cursor: pointer;
 }
 
