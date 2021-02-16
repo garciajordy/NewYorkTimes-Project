@@ -37,10 +37,7 @@ li a {
 
 .navimg {
   transition: 410ms;
-}
-
-.navimg:hover {
-  background-color: gray;
+  background-color: white;
 }
 
 .navBarRight {
@@ -309,6 +306,14 @@ h3 {
   margin-left: -40px;
 }
 
+.second1,
+.second2,
+.second3,
+.second4,
+.second5:hover {
+  cursor: pointer;
+}
+
 .second1 {
   grid-area: vid1;
   margin-top: 25px;
@@ -359,6 +364,12 @@ h3 {
   grid-area: pic3;
   margin-top: 25px;
   margin-left: -45px;
+}
+
+.third1,
+.third2,
+.third3:hover {
+  cursor: pointer;
 }
 
 .news {
