@@ -397,3 +397,6 @@ a{
 #iconTop {
     text-align: center;
 }
+.top {
+    display: grid;
+}
