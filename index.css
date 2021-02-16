@@ -394,3 +394,6 @@ a{
     border: gray solid 1px;
     cursor: pointer;
 }
+#iconTop {
+    text-align: center;
+}
