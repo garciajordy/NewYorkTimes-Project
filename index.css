@@ -50,6 +50,7 @@ ul {
   }
   .navBarRight:hover {
       background-color: #4e8bb8;
+      cursor: pointer;
   }
   #logo {
       position: fixed;
@@ -132,7 +133,8 @@ iframe {
     border-radius: 7px;
 }
 #buttonCom:hover {
-    background-color: rgb(60, 132, 184)
+    background-color: rgb(60, 132, 184);
+    cursor: pointer;
 }
 .bottomCon {
     display: grid;
@@ -342,6 +344,7 @@ a{
 }
 .first1:hover {
     box-shadow: black 0px 2px 5px;
+    cursor: pointer;
 }
 .first1:hover .plus{
     color: white;
@@ -357,9 +360,11 @@ a{
 }
 .first2:hover {
     box-shadow: black 0px 2px 5px;
+    cursor: pointer;
 }
 .first3:hover {
     box-shadow: black 0px 2px 5px;
+    cursor: pointer;
 }
 .firstLeft a {
     color: blue;
@@ -387,4 +392,5 @@ a{
 .imgLogo:hover {
     background-color: white;
     border: gray solid 1px;
+    cursor: pointer;
 }
