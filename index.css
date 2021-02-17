@@ -536,9 +536,9 @@ h3 {
 .editorsCon {
   width: 15%;
   height: 350px;
-  display: grid;
-  grid-template-rows: 50px 300px;
+  display: flex;
   position: absolute;
+  flex-flow: column;
   right: 50px;
   top: 1600px;
 }
