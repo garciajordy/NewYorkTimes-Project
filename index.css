@@ -143,6 +143,36 @@ iframe {
   height: 300px;
 }
 
+.createAccount {
+  text-align: center;
+  line-height: 2px;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.createAccount a {
+  color: rgb(80, 80, 247);
+}
+
+#createAcTop {
+  border-top: rgb(184, 184, 184) solid 1px;
+  padding-top: 15px;
+  margin-right: 0;
+  color: inherit;
+}
+
+#createAcBot {
+  border-bottom:  rgb(184, 184, 184) solid 1px;
+  padding-bottom: 15px;
+  color: rgb(80, 80, 247);
+  margin-right: 0;
+}
+
+.createAccount a {
+  text-decoration: none;
+}
+
 .vidDesc {
   margin-left: 30%;
   width: 40%;
