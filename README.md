@@ -7,6 +7,10 @@
 
 <img src="images/screenshot.png">
 
+Autor: 
+
+        -Jordy Garcia
+
 Languages:
 
         -HTML
