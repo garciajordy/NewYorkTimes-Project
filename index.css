@@ -562,7 +562,11 @@ h3 {
 }
 
 #iconTop {
-  text-align: center;
+  text-align: left;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
 }
 
 .middlePart {
