@@ -1,52 +1,31 @@
-<body style="margin-left: 150px;margin-right: 150px;">
 
+   # H1 NewYorkTimes-Project
 
-    <h1>NewYorkTimes-Project</h1>
-    <hr>
-    <br>
+   First project for Microverse HTML/CSS course 
+   I'ts a copy of a New York Times article
+  
+![alt text](images/screenshot.png "Screenshot of my project")
+   # H2 Autor: 
+ 
+   
+   # H3 ..* Jordy Garcia
 
-    <p> First project for Microverse HTML/CSS course </p><br>
-    <p> I'ts a copy of a New York Times article </p>
-    <br>
-    <br>
-    <img style="width: 900px;height: 500px;margin-left: 50px;" src="images/screenshot.png">
+# H2 Languages:
+    
+   # H3 ..* HTML
+   # H3 ..* CSS
+      
+            
+# H2 Responsive:
 
-    <h2>Autor: </h2>
-    <hr>
-    <ul>
-        <li>
+   # H3 ..* Not responsive
+      
+# H2 Live Preview:
+  
+[Link to Live preview](https://garciajordy.github.io/NewYorkTimes-Project/)
 
-            <h4> Jordy Garcia</h4>
-        </li>
-    </ul>
-
-
-    <h2>Languages:</h2>
-    <hr>
-    <ul>
-        <li>
-            <h4> HTML </h4>
-        </li>
-        <li>
-            <h4> CSS</h4>
-        </li>
-    </ul>
-
-    <h2>Responsive:</h2>
-    <hr>
-    <ul>
-        <li>
-            <h4>Not responsive</h4>
-        </li>
-    </ul>
-
-    <h2>Live Preview:</h2>
-    <hr style="margin-bottom: 20px;">
-    <a href="https://garciajordy.github.io/NewYorkTimes-Project/">Link to Live preview</a>
-
-    <h2>Original Article:</h2>
-    <hr style="margin-bottom: 20px;">
-    <a style="margin-bottom: 100px;"
-        href="https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0">Link
-        to Original Article</a>
-</body>
+ # H2 Original Article:
+  
+  
+[Link to Original article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+      
