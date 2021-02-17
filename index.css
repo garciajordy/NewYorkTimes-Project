@@ -696,10 +696,45 @@ span {
 }
 
 .footer2Con {
-  margin: 0 80px 50px;
+  margin: 0 80px 100px;
   font-size: 12px;
 }
 
 .figCap {
   width: 200px;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: black solid 1px;
+}
+
+footer:hover {
+  cursor: pointer;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 300;
+}
+
+#expand {
+  font-weight: bolder;
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 1;
+  bottom: 3px;
+  right: 100px;
+  font-size: 12px;
+}
+
+#expandArrow {
+  position: fixed;
+  z-index: 1;
+  bottom: 17px;
+  right: 60px;
 }
