@@ -26,8 +26,16 @@ li a {
   text-transform: uppercase;
 }
 
+#space {
+  font-weight: 900;
+}
+
 #space:hover {
   text-decoration: underline;
+}
+
+.rightSide {
+  float: right;
 }
 
 .navimg {
@@ -101,6 +109,25 @@ nav {
   margin-left: 20%;
 }
 
+#dennis {
+  color: rgb(27, 27, 27);
+  text-decoration: underline rgb(160, 160, 160);
+}
+
+h1 {
+  border-bottom: solid rgb(197, 197, 197) 1px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#dennis:hover {
+  text-decoration: none;
+}
+
 strong a {
   color: rgb(0, 0, 0);
 }
@@ -114,6 +141,34 @@ iframe {
   width: 40%;
   margin-left: 30%;
   height: 300px;
+}
+
+.createAccount {
+  text-align: center;
+  line-height: 2px;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.createAccount a {
+  color: rgb(80, 80, 247);
+  text-decoration: none;
+}
+
+#createAcTop {
+  border-top: rgb(184, 184, 184) solid 1px;
+  padding-top: 15px;
+  margin-right: 0;
+  color: inherit;
+}
+
+#createAcBot {
+  border-bottom: rgb(184, 184, 184) solid 1px;
+  padding-bottom: 15px;
+  color: rgb(80, 80, 247);
+  margin-right: 0;
 }
 
 .vidDesc {
@@ -132,19 +187,51 @@ iframe {
   grid-template-areas: "text text text text text text" "news opinion arts living more subscribe";
   margin: -200px 50px 0;
 }
+
 .footerCon a {
   color: black;
   text-decoration: none;
 }
+
 .footer2Con a {
   color: rgb(116, 116, 116);
   float: left;
   margin-right: 15px;
+  text-decoration: none;
+}
+
+#dontShow {
+  cursor: pointer;
+  color: rgb(71, 71, 71);
 }
 
 .firstLeft a {
   color: blue;
   text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 300;
+}
+
+.first1 p,
+h3 {
+  line-height: 2px;
+}
+
+.first2 p,
+h3 {
+  line-height: 2px;
+}
+
+.first3 p,
+h3 {
+  line-height: 2px;
+}
+
+.firstLeft h3 {
+  margin-bottom: 35px;
 }
 
 .firstLeft a:hover {
@@ -156,7 +243,7 @@ iframe {
 }
 
 .footer2Con a:hover {
-  text-decoration: black underline;
+  text-decoration: rgb(59, 59, 59) underline;
 }
 
 #subs {
@@ -174,6 +261,10 @@ iframe {
 
 .buttonCon {
   margin-bottom: 70px;
+}
+
+.buttonCon img {
+  margin-left: 12px;
 }
 
 #buttonCom {
@@ -244,11 +335,6 @@ iframe {
   grid-area: fourth;
 }
 
-.first1 > p,
-h3 {
-  line-height: 2px;
-}
-
 .first2 {
   max-width: 300px;
   height: 250px;
@@ -257,22 +343,12 @@ h3 {
   grid-area: fifth;
 }
 
-.first2 > p,
-h3 {
-  line-height: 2px;
-}
-
 .first3 {
   max-width: 300px;
   height: 250px;
   padding: 10px;
   border: solid rgb(221, 221, 221) 1px;
   grid-area: sixth;
-}
-
-.first3 > p,
-h3 {
-  line-height: 2px;
 }
 
 .plus {
@@ -293,9 +369,21 @@ h3 {
   border-top: black solid 1px;
   grid-template-areas: "text text text" "vid1 vid2 none" "vid3 vid4 vid5";
 }
+
+.top h4 {
+  font-weight: bolder;
+}
+
+.top h4:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .secondLeft h4:hover {
   color: #333;
 }
+
 .second1,
 .second2,
 .second3,
@@ -332,6 +420,7 @@ h3 {
   grid-area: vid5;
   margin-top: -85px;
 }
+
 .second1,
 .second2,
 .second3,
@@ -443,15 +532,17 @@ h3 {
   box-shadow: black 0 2px 5px;
   cursor: pointer;
 }
+
 .editorsCon {
   width: 15%;
   height: 350px;
-  display: grid;
-  grid-template-rows: 50px 300px;
+  display: flex;
   position: absolute;
+  flex-flow: column;
   right: 50px;
   top: 1600px;
 }
+
 .editorsPic {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -460,12 +551,14 @@ h3 {
   border-top: rgb(209, 209, 209) solid 1px;
   padding-top: 15px;
 }
+
 .editor2,
 .editor4,
 .editor6 {
   color: #333;
   font-size: 15px;
 }
+
 .editor2:hover,
 .editor4:hover,
 .editor6:hover {
@@ -502,7 +595,11 @@ h3 {
 }
 
 #iconTop {
-  text-align: center;
+  text-align: left;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
 }
 
 .middlePart {
@@ -595,12 +692,6 @@ span {
   border-bottom: rgb(187, 187, 187) solid 1px;
 }
 
-.top h4:hover {
-  color: black;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .top p {
   font-size: 12px;
 }
@@ -610,6 +701,40 @@ span {
 }
 
 .footer2Con {
-  margin: 0 80px 50px;
+  margin: 0 80px 100px;
   font-size: 12px;
+}
+
+.figCap {
+  width: 200px;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: black solid 1px;
+}
+
+footer:hover {
+  cursor: pointer;
+}
+
+#expand {
+  font-weight: bolder;
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 1;
+  bottom: 3px;
+  right: 100px;
+  font-size: 12px;
+}
+
+#expandArrow {
+  position: fixed;
+  z-index: 1;
+  bottom: 17px;
+  right: 60px;
 }
