@@ -210,6 +210,11 @@ iframe {
   text-decoration: none;
 }
 
+footer p {
+  text-align: center;
+  font-weight: 300;
+}
+
 .first1 p,
 h3 {
   line-height: 2px;
@@ -715,11 +720,6 @@ footer {
 
 footer:hover {
   cursor: pointer;
-}
-
-footer p {
-  text-align: center;
-  font-weight: 300;
 }
 
 #expand {
