@@ -8,17 +8,17 @@
    ##  Autor: 
  
    
-   ###  + Jordy Garcia
+   ###  * Jordy Garcia
 
 ##  Languages:
     
-   ###  + HTML
-   ###  + CSS
+   ###  - HTML
+   + ### CSS
       
             
 ## Responsive:
 
-   ### + Not responsive
+   - ### Not responsive
       
 ## Live Preview:
   
