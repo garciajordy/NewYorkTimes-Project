@@ -151,8 +151,10 @@ iframe {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .createAccount a {
   color: rgb(80, 80, 247);
+  text-decoration: none;
 }
 
 #createAcTop {
@@ -163,14 +165,10 @@ iframe {
 }
 
 #createAcBot {
-  border-bottom:  rgb(184, 184, 184) solid 1px;
+  border-bottom: rgb(184, 184, 184) solid 1px;
   padding-bottom: 15px;
   color: rgb(80, 80, 247);
   margin-right: 0;
-}
-
-.createAccount a {
-  text-decoration: none;
 }
 
 .vidDesc {
