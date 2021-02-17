@@ -8,11 +8,11 @@
    ##  Autor: 
  
    
-   ###  * Jordy Garcia
+  + ### Jordy Garcia
 
 ##  Languages:
     
-   ###  - HTML
+   + ###  HTML
    + ### CSS
       
             
