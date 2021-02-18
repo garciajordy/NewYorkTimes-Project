@@ -27,6 +27,9 @@ body {
   box-shadow: rgb(0, 0, 0) 3px 5px 8px;
   box-sizing: border-box;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
@@ -82,23 +85,20 @@ textarea {
   padding: 5px;
 }
 
-#opinion {
-  margin: 30px 15% 50px;
-  width: 70%;
-}
 
-#positive,
+
 #neutral,
 #negative {
   margin-top: 15px;
-  margin-left: 15%;
+  margin-left: 20px;
 }
+
 
 #submit {
   width: 100px;
   height: 50px;
-  margin: 50px 40%;
   border-radius: 8px;
+  margin-left: 20px;
 }
 
 #submit:hover {
