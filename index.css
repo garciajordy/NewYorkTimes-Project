@@ -140,7 +140,6 @@ li a {
 }
 
 .navimg {
-  transition: 410ms;
   background-color: white;
 }
 
@@ -155,7 +154,6 @@ li a {
   font-size: 11px;
   border-radius: 3px;
   border: none;
-  transition: 410ms;
 }
 
 .navBarRight:hover {
@@ -179,11 +177,54 @@ li a {
   margin-left: 30%;
 }
 
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: white;
+  box-shadow: gray 0 0 2px;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  visibility: hidden;
+}
+
+.navBar p {
+  font-size: 15px;
+}
+
+.navBarMiddle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBarMiddle a {
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.navBarLogo {
+  margin-top: -40px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+#navBarLogo {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  height: 50px;
   background-color: white;
   box-shadow: gray 0 0 2px;
   z-index: 1;
@@ -194,13 +235,14 @@ nav {
 }
 
 .imgLogo {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   padding: 5px;
   background-color: rgb(235, 235, 235);
   margin-top: 50px;
   border: 1px solid white;
+  margin-right: 5px;
 }
 
 .imgDesc {

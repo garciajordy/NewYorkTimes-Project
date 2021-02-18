@@ -40,3 +40,14 @@ function footerOpen() {
     }
 
 }
+window.onscroll = function () { scrollFunc() };
+
+function scrollFunc() {
+    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        document.getElementById("navbar1").style.visibility = "hidden"
+        document.getElementById("navbar2").style.visibility = "visible";
+    } else {
+        document.getElementById("navbar1").style.visibility = "visible"
+        document.getElementById("navbar2").style.visibility = "hidden";
+    }
+}
