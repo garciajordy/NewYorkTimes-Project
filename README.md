@@ -3,6 +3,7 @@
 
    First project for Microverse HTML/CSS course 
    I'ts a copy of a New York Times article
+   To open the form "Click" on any button or link
   
 ![alt text](images/screenshot.png "Screenshot of my project")
    ##  Autor: 
@@ -14,6 +15,7 @@
     
    + ###  HTML
    + ### CSS
+   + ### JavaScript (VERY BASIC/Just to open the Form)
       
             
 ## Responsive:
