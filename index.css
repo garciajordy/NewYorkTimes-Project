@@ -821,13 +821,12 @@ footer {
   border-top: black solid 1px;
   display: grid;
   grid-template-rows: 1fr 4fr;
-  grid-template-areas: "txt"
-                        "content";
+  grid-template-areas: "txt" "content";
 }
 
 .footerMin {
   display: grid;
-  grid-template-columns: 2fr 4fr 1fr 0.5fr 0.5fr ;
+  grid-template-columns: 2fr 4fr 1fr 0.5fr 0.5fr;
   grid-template-areas: "none that none arrow arr";
   grid-area: txt;
 } 
@@ -854,7 +853,6 @@ footer:hover {
   z-index: 1;
   float: right;
   padding: 15px;
-  
 }
 
 .footerMax {
