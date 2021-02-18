@@ -829,7 +829,7 @@ footer {
   grid-template-columns: 2fr 4fr 1fr 0.5fr 0.5fr;
   grid-template-areas: "none that none arrow arr";
   grid-area: txt;
-} 
+}
 
 footer:hover {
   cursor: pointer;
