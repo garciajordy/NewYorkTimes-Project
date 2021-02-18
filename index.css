@@ -191,8 +191,17 @@ li a {
   visibility: hidden;
 }
 
+footer p {
+  text-align: center;
+  font-weight: 300;
+}
+
 .navBar p {
   font-size: 15px;
+}
+
+strong a {
+  color: rgb(0, 0, 0);
 }
 
 .navBarMiddle {
@@ -271,10 +280,6 @@ h1 {
   text-decoration: none;
 }
 
-strong a {
-  color: rgb(0, 0, 0);
-}
-
 #imgMiddle {
   margin-left: 15%;
   width: 80%;
@@ -351,11 +356,6 @@ iframe {
 .firstLeft a {
   color: blue;
   text-decoration: none;
-}
-
-footer p {
-  text-align: center;
-  font-weight: 300;
 }
 
 .first1 p,
