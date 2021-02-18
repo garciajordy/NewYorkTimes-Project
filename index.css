@@ -839,18 +839,16 @@ footer:hover {
 #expand {
   font-weight: bolder;
   text-transform: uppercase;
-  
   z-index: 1;
-
   font-size: 12px;
-  
   padding-top: 5px;
   grid-column-start: 4;
 }
+
 #footerTxt {
   grid-column-start: 2;
-  
 }
+
 #expandArrow {
   grid-column-start: 5;
   z-index: 1;
@@ -858,6 +856,7 @@ footer:hover {
   padding: 15px;
   
 }
+
 .footerMax {
   background-image: url(images/popup.jpg);
   background-size: 100% 100%;
