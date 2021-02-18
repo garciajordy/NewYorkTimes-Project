@@ -6,9 +6,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="index.css">
 	<title>Space Ripples Reveal Big Bang’s Smoking Gun - The New York Times</title>
+
 </head>
 
 <body>
+	<div id="formBackground">
+		<div class="formCon">
+			<form action="/">
+				<h2>Jordy's Form</h2>
+				<div onclick="closeForm()" id="x">x</div>
+				<label for="name">Name:</label><br>
+				<input id="name" name="name" type="text" placeholder="Write your name..." required><br>
+				<label for="email">E-mail:</label><br>
+				<input id="email" name="email" type="email" placeholder="example@gmail.com" required><br>
+				<label id="opinion" for="opinion">What is your overall opinion about this article?</label><br>
+				<input id="positive" name="opinion" type="radio" value="positive" checked><label
+					for="positive">Positive</label>
+				<input id="neutral" name="opinion" type="radio" value="neutral"><label for="neutral">Neutral</label>
+				<input id="negative" name="opinion" type="radio" value="negative"><label for="negative">Negative</label>
+				<label id="comLabel" for="comment">Comment:&nbsp;</label><br>
+				<textarea name="comment" id="comment" cols="30" rows="10"
+					placeholder="Write a comment..."></textarea><br>
+				<input id="subscribe" name="subscribe" type="checkbox">
+				<label for="subscribe">I want to subscribe to the newsletter</label><br>
+				<input onsubmit="closeForm()" id="submit" type="submit">
+
+
+			</form>
+		</div>
+	</div>
 	<header>
 		<nav>
 			<ul>
@@ -553,7 +579,7 @@
 			<p> <a href="#"> Help</a> </p>
 			<p> <a href="#"> Subscriptions </a> </p>
 		</div>
-		<footer>
+		<footer onclick="openForm()">
 			<p>Access more of The Times by creating a free account or logging in.</p>
 			<p id="expand">expand</p><img id="expandArrow" height="13" width="13" src="images/expand.png"
 				alt="expand  arrow">
@@ -561,6 +587,7 @@
 		</footer>
 
 	</div>
+	<script src="index.js"></script>
 </body>
 
 </html>

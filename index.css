@@ -4,6 +4,109 @@ body {
   padding: 0;
 }
 
+#formBackground {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.507);
+  top: 0;
+  left: 0;
+  z-index: 2;
+  visibility: visible;
+}
+
+.formCon {
+  background-color: rgba(219, 213, 255, 0.9);
+  width: 40vw;
+  height: auto;
+  max-height: 90vh;
+  margin: 35px auto;
+  padding: 20px 30px 20px 15px;
+  border-radius: 25px;
+  border: black solid 1px;
+  box-shadow: rgb(0, 0, 0) 3px 5px 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+h2 {
+  margin: 0 auto;
+  border-bottom: black solid 1.8px;
+  width: 150px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#x {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black solid 1px;
+  border-radius: 3px;
+  background-color: red;
+  color: #ddd;
+}
+
+#x:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  box-shadow: gray 0 0 3px;
+}
+
+label {
+  font-weight: 900;
+}
+
+textarea {
+  resize: none;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+#comLabel {
+  margin-bottom: -15px;
+}
+
+#name,
+#email {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#opinion {
+  margin: 30px 15% 50px;
+  width: 70%;
+}
+
+#positive,
+#neutral,
+#negative {
+  margin-top: 15px;
+  margin-left: 15%;
+}
+
+#submit {
+  width: 100px;
+  height: 50px;
+  margin: 50px 40%;
+  border-radius: 8px;
+}
+
+#submit:hover {
+  background-color: rgb(65, 199, 65);
+  transform: scale(1.2);
+  box-shadow: black 0 0 5px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
