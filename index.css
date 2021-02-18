@@ -811,12 +811,24 @@ span {
 }
 
 footer {
-  height: 50px;
+  transition: 500ms;
+  height: 250px;
+  margin-bottom: -200px;
   width: 100%;
   position: fixed;
   bottom: 0;
   background-color: white;
   border-top: black solid 1px;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas: "txt" "content";
+}
+
+.footerMin {
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr 0.5fr 0.5fr;
+  grid-template-areas: "none that none arrow arr";
+  grid-area: txt;
 }
 
 footer:hover {
@@ -826,16 +838,25 @@ footer:hover {
 #expand {
   font-weight: bolder;
   text-transform: uppercase;
-  position: fixed;
   z-index: 1;
-  bottom: 3px;
-  right: 100px;
   font-size: 12px;
+  padding-top: 5px;
+  grid-column-start: 4;
+}
+
+#footerTxt {
+  grid-column-start: 2;
 }
 
 #expandArrow {
-  position: fixed;
+  grid-column-start: 5;
   z-index: 1;
-  bottom: 17px;
-  right: 60px;
+  float: right;
+  padding: 15px;
+}
+
+.footerMax {
+  background-image: url(images/popup.jpg);
+  background-size: 100% 100%;
+  margin: 0 70px 30px;
 }
