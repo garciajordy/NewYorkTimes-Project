@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" onclick="openForm()" href="index.css">
 	<title>Space Ripples Reveal Big Bang’s Smoking Gun - The New York Times</title>
 
 </head>
@@ -25,11 +25,11 @@
 				<input id="neutral" name="opinion" type="radio" value="neutral"><label for="neutral">Neutral</label>
 				<input id="negative" name="opinion" type="radio" value="negative"><label for="negative">Negative</label>
 				<label id="comLabel" for="comment">Comment:&nbsp;</label><br>
-				<textarea name="comment" id="comment" cols="30" rows="10"
+				<textarea name="comment" id="comment" cols="50" rows="10"
 					placeholder="Write a comment..."></textarea><br>
 				<input id="subscribe" name="subscribe" type="checkbox">
-				<label for="subscribe">I want to subscribe to the newsletter</label><br>
-				<input onsubmit="closeForm()" id="submit" type="submit">
+				<label for="subscribe">I want to subscribe to the newsletter</label>
+				<input onclick="submitF()" id="submit" type="submit">
 
 
 			</form>
@@ -39,22 +39,24 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="#"> <img class="navimg" height="10" width="20" src="images/menu.png" alt="menu"> </a>
+					<a onclick="openForm()" href="#"> <img class="navimg" height="10" width="20" src="images/menu.png"
+							alt="menu"> </a>
 				</li>
 				<li>
-					<a href="#"> <img class="navimg" height="15" width="15" src="images/search.png" alt="search"> </a>
+					<a onclick="openForm()" href="#"> <img class="navimg" height="15" width="15" src="images/search.png"
+							alt="search"> </a>
 				</li>
-				<li> <a id="space" href="#">SPACE & COSMOS</a> </li>
+				<li> <a id="space" onclick="openForm()" href="#">SPACE & COSMOS</a> </li>
 				<li>
-					<a id="logo" href="#"> <img height="30" width="200" src="images/newyorktimes.jpg"
-							alt="newyorktimes logo">
+					<a id="logo" onclick="openForm()" href="#"> <img height="30" width="200"
+							src="images/newyorktimes.jpg" alt="newyorktimes logo">
 					</a>
 				</li>
 				<li class="rightSide">
-					<button type="button" class="navBarRight">log in</button>
+					<button onclick="openForm()" type="button" class="navBarRight">log in</button>
 				</li>
 				<li class="rightSide">
-					<button type="button" class="navBarRight">subscribe now</button>
+					<button onclick="openForm()" type="button" class="navBarRight">subscribe now</button>
 				</li>
 			</ul>
 		</nav>
@@ -67,13 +69,13 @@
 		</h1>
 		<div id="iconTop">
 			<br>
-			<img class="imgLogo" src="images/facebook.png" alt="facebook logo">
-			<img class="imgLogo" src="images/whatsapp.webp" alt="whatsapp logo">
-			<img class="imgLogo" src="images/twitter.png" alt="twitter log">
-			<img class="imgLogo" src="images/mail.jpg" alt="mail logo">
-			<img class="imgLogo" src="images/reply.png" alt="reply logo">
-			<img class="imgLogo" src="images/bookmark.png" alt="bookmark logo">
-			<img class="imgLogo" src="images/comment.webp" alt="comment logo">
+			<img class="imgLogo" onclick="openForm()" src="images/facebook.png" alt="facebook logo">
+			<img class="imgLogo" onclick="openForm()" src="images/whatsapp.webp" alt="whatsapp logo">
+			<img class="imgLogo" onclick="openForm()" src="images/twitter.png" alt="twitter log">
+			<img class="imgLogo" onclick="openForm()" src="images/mail.jpg" alt="mail logo">
+			<img class="imgLogo" onclick="openForm()" src="images/reply.png" alt="reply logo">
+			<img class="imgLogo" onclick="openForm()" src="images/bookmark.png" alt="bookmark logo">
+			<img class="imgLogo" onclick="openForm()" src="images/comment.webp" alt="comment logo">
 		</div>
 	</div>
 	<figure> <img class="firstImg"
@@ -88,13 +90,15 @@
 			<div class="editorHead">
 				<h4>Editor's Pick</h4>
 			</div>
-			<div class="editorsPic"> <img height="70" width="70" class="editor1" src="images/editor1.jpg"
-					alt="man wearing mask">
-				<p class="editor2">San Francisco Rallied to Find a DoorDash Driver’s Missing Children</p> <img
-					height="70" width="70" class="editor3" src="images/editor3.jpg" alt="woman wearing mask">
-				<p class="editor4">For This College Athlete, Covid-19 Was Just the Start of a Nightmare</p> <img
-					height="70" width="70" class="editor5" src="images/editor5.png" alt="cartoon of girl on camputor">
-				<p class="editor6">A Friend Shot a Biting Dog. I’m in Shock. What Should I Do?</p>
+			<div class="editorsPic"> <img onclick="openForm()" height="70" width="70" class="editor1"
+					src="images/editor1.jpg" alt="man wearing mask">
+				<p onclick="openForm()" class="editor2">San Francisco Rallied to Find a DoorDash Driver’s Missing
+					Children</p> <img onclick="openForm()" height="70" width="70" class="editor3"
+					src="images/editor3.jpg" alt="woman wearing mask">
+				<p onclick="openForm()" class="editor4">For This College Athlete, Covid-19 Was Just the Start of a
+					Nightmare</p> <img onclick="openForm()" height="70" width="70" class="editor5"
+					src="images/editor5.png" alt="cartoon of girl on camputor">
+				<p onclick="openForm()" class="editor6">A Friend Shot a Biting Dog. I’m in Shock. What Should I Do?</p>
 			</div>
 		</div>
 	</aside>
@@ -102,7 +106,7 @@
 		<section>
 			<div class="text">
 				<h4>By
-					<a id="dennis" href="#">Dennis Overbye</a>
+					<a id="dennis" onclick="openForm()" href="#">Dennis Overbye</a>
 				</h4>
 				<p> CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new
 					son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing
@@ -122,13 +126,15 @@
 					of the Big Bang, and that his hypothesis, known undramatically as inflation, looked right. </p>
 				<div class="createAccount">
 					<p>Unlock <abbr id="createAcTop">more free</abbr> articles.</p>
-					<a href="#">Create a<abbr id="createAcBot">n account</abbr> or log in</a>
+					<a onclick="openForm()" href="#">Create a<abbr id="createAcBot">n account</abbr> or log in</a>
 
 				</div>
-				<p> Reaching back across 13.8 billion years to <a href="#">the first sliver of cosmic time</a> with
+				<p> Reaching back across 13.8 billion years to <a onclick="openForm()" href="#">the first sliver of
+						cosmic time</a> with
 					telescopes at the South Pole, a team of astronomers led by John M. Kovac of the Harvard-Smithsonian
 					Center for Astrophysics detected ripples in the fabric of space-time — so-called <a
-						href="#">gravitational waves</a> — the signature of a universe being wrenched violently apart
+						onclick="openForm()" href="#">gravitational waves</a> — the signature of a universe being
+					wrenched violently apart
 					when it was roughly a trillionth of a trillionth of a trillionth of a second old. They are the
 					long-sought smoking-gun evidence of inflation, proof, Dr. Kovac and his colleagues say, that Dr.
 					Guth was correct. </p>
@@ -221,7 +227,8 @@
 					chose his words as carefully as he tended his radio telescopes. </p>
 				<p> Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of
 					inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last
-					week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a href="#">knocked
+					week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a
+						onclick="openForm()" href="#">knocked
 						on his door with a bottle of Champagne</a> to tell him the news. </p>
 			</div>
 			<figure>
@@ -327,14 +334,15 @@
 					part of the team, “you wind up at inflation.” </p>
 				<p id="subs"> A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New
 					York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a class="anch"
-						href="#">Order Reprints </a>| <a class="anch" href="#">Today’s Paper</a> | <a class="anch"
-						href="#">Subscribe</a> </p>
+						onclick="openForm()" href="#">Order Reprints </a>| <a class="anch" onclick="openForm()"
+						href="#">Today’s Paper</a> | <a class="anch" onclick="openForm()" href="#">Subscribe</a> </p>
 				<div class="buttonCon">
-					<button type="button" id="buttonCom">read 615 comments</button> <img class="imgLogo"
-						src="images/facebook.png" alt="facebook logo"> <img class="imgLogo" src="images/whatsapp.webp"
-						alt="whatsapp logo"> <img class="imgLogo" src="images/twitter.png" alt="twitter log"> <img
-						class="imgLogo" src="images/mail.jpg" alt="mail logo"> <img class="imgLogo"
-						src="images/reply.png" alt="reply logo">
+					<button onclick="openForm()" type="button" id="buttonCom">read 615 comments</button> <img
+						class="imgLogo" onclick="openForm()" src="images/facebook.png" alt="facebook logo"> <img
+						class="imgLogo" onclick="openForm()" src="images/whatsapp.webp" alt="whatsapp logo"> <img
+						class="imgLogo" onclick="openForm()" src="images/twitter.png" alt="twitter log"> <img
+						class="imgLogo" onclick="openForm()" src="images/mail.jpg" alt="mail logo"> <img class="imgLogo"
+						onclick="openForm()" src="images/reply.png" alt="reply logo">
 				</div>
 			</div>
 		</section>
@@ -343,32 +351,35 @@
 				<div class="firstLeft">
 					<h4>Suggested newsletter for you</h4>
 					<p id="dontShow">Don't show me this again</p>
-					<div class="first1"> <img height="80" width="80" src="images/breakingnews.jpg" alt="">
+					<div onclick="openForm()" class="first1"> <img height="80" width="80" src="images/breakingnews.jpg"
+							alt="">
 						<div class="plus">+</div>
 						<p>As Needed</p>
 						<h3>Breaking News</h3>
 						<p>Alerts when important news</p>
 						<p> breaks around the world.</p>
 						<br>
-						<br> <a href="#">See the latest</a>
+						<br> <a onclick="openForm()" href="#">See the latest</a>
 					</div>
-					<div class="first2"> <img height="80" width="80" src="images/athome.png" alt="">
+					<div onclick="openForm()" class="first2"> <img height="80" width="80" src="images/athome.png"
+							alt="">
 						<div class="plus">+</div>
 						<p>Weekly</p>
 						<h3>At Home</h3>
 						<p>Our best suggestions for how to</p>
 						<p> live a full and cultured life during</p>
 						<p> the pandemic, at home.</p>
-						<br> <a href="#">See the latest</a>
+						<br> <a onclick="openForm()" href="#">See the latest</a>
 					</div>
-					<div class="first3"> <img height="80" width="80" src="images/morning.jpg" alt="">
+					<div onclick="openForm()" class="first3"> <img height="80" width="80" src="images/morning.jpg"
+							alt="">
 						<div class="plus">+</div>
 						<p>Daily</p>
 						<h3>The Morning</h3>
 						<p>Make sense of the day's news and</p>
 						<p> ideas. David Leonhardt and Times </p>
 						<p> guide you</p>
-						<br> <a href="#">See the latest</a>
+						<br> <a onclick="openForm()" href="#">See the latest</a>
 					</div>
 				</div>
 				<div class="secondLeft">
@@ -446,23 +457,33 @@
 				<div class="sideCon">
 					<h4>Most Popular</h4>
 				</div>
-				<div class="sideCon"> <a class="sideText" href="#">Brayden Smith, Five-Time ‘Jeopardy!’ Champion, Dies
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">Brayden Smith, Five-Time
+						‘Jeopardy!’ Champion, Dies
 						at 24</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">Biden Administration Moves to End Work Requirements
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">Biden Administration Moves to
+						End Work Requirements
 						in Medicaid</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">Robert Maraj, Father of Nicki Minaj, Is Killed in Hit
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">Robert Maraj, Father of Nicki
+						Minaj, Is Killed in Hit
 						and Run, Police Say</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">Homes for Sale in New York and Connecticut</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">Driving in Winter? Tips From Experts on How to Arrive
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">Homes for Sale in New York and
+						Connecticut</a> </div>
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">Driving in Winter? Tips From
+						Experts on How to Arrive
 						Safely</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">‘I’m Afraid He’s Going to Run Again and Lose,’ Lieu
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">‘I’m Afraid He’s Going to Run
+						Again and Lose,’ Lieu
 						Says of Trump</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">Opinion: Why Are Republicans Still This Loyal to a
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">Opinion: Why Are Republicans
+						Still This Loyal to a
 						Mar-a-Lago Exile?</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">Indianapolis Museum of Art Apologizes for Insensitive
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">Indianapolis Museum of Art
+						Apologizes for Insensitive
 						Job Posting</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">A Bad Guy Jumped Out of Their Wedding Cake</a> </div>
-				<div class="sideCon"> <a class="sideText" href="#">At Least 120 Million Americans Are Bracing for
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">A Bad Guy Jumped Out of Their
+						Wedding Cake</a> </div>
+				<div class="sideCon"> <a class="sideText" onclick="openForm()" href="#">At Least 120 Million Americans
+						Are Bracing for
 						Coast-to-Coast Storm</a> </div>
 			</div>
 		</div>
@@ -470,77 +491,77 @@
 		<div class="footerCon"> <img height="40" width="200" src="images/newyorktimes.jpg" alt="">
 			<div class="news">
 				<h5>NEWS</h5>
-				<p> <a href="#">Home Page</a> </p>
-				<p> <a href="#">World</a> </p>
-				<p> <a href="#">Coronavirus</a> </p>
-				<p> <a href="#">U.S.</a> </p>
-				<p> <a href="#">Politics</a> </p>
-				<p> <a href="#">Election Results </a> </p>
-				<p> <a href="#">New York</a> </p>
-				<p> <a href="#"> Business</a> </p>
-				<p> <a href="#">Tech</a> </p>
-				<p> <a href="#">Science</a> </p>
-				<p> <a href="#">Sports</a> </p>
-				<p> <a href="#"> Obituaries</a> </p>
-				<p> <a href="#">Today's Paper</a> </p>
-				<p> <a href="#">Corrections</a> </p>
+				<p> <a onclick="openForm()" href="#">Home Page</a> </p>
+				<p> <a onclick="openForm()" href="#">World</a> </p>
+				<p> <a onclick="openForm()" href="#">Coronavirus</a> </p>
+				<p> <a onclick="openForm()" href="#">U.S.</a> </p>
+				<p> <a onclick="openForm()" href="#">Politics</a> </p>
+				<p> <a onclick="openForm()" href="#">Election Results </a> </p>
+				<p> <a onclick="openForm()" href="#">New York</a> </p>
+				<p> <a onclick="openForm()" href="#"> Business</a> </p>
+				<p> <a onclick="openForm()" href="#">Tech</a> </p>
+				<p> <a onclick="openForm()" href="#">Science</a> </p>
+				<p> <a onclick="openForm()" href="#">Sports</a> </p>
+				<p> <a onclick="openForm()" href="#"> Obituaries</a> </p>
+				<p> <a onclick="openForm()" href="#">Today's Paper</a> </p>
+				<p> <a onclick="openForm()" href="#">Corrections</a> </p>
 			</div>
 			<div class="opinion">
 				<h5>OPINION</h5>
-				<p> <a href="#">Today's Opinion</a> </p>
-				<p> <a href="#">Op-Ed Columnists</a> </p>
-				<p> <a href="#">Editorials</a> </p>
-				<p> <a href="#">Op-Ed Contributors</a> </p>
-				<p> <a href="#">Letters</a> </p>
-				<p> <a href="#">Sunday Review</a> </p>
-				<p> <a href="#">Video: Opinion</a> </p>
+				<p> <a onclick="openForm()" href="#">Today's Opinion</a> </p>
+				<p> <a onclick="openForm()" href="#">Op-Ed Columnists</a> </p>
+				<p> <a onclick="openForm()" href="#">Editorials</a> </p>
+				<p> <a onclick="openForm()" href="#">Op-Ed Contributors</a> </p>
+				<p> <a onclick="openForm()" href="#">Letters</a> </p>
+				<p> <a onclick="openForm()" href="#">Sunday Review</a> </p>
+				<p> <a onclick="openForm()" href="#">Video: Opinion</a> </p>
 			</div>
 			<div class="arts">
 				<h5>ARTS</h5>
-				<p> <a href="#">Today's Arts </a> </p>
-				<p> <a href="#">Art & Design</a> </p>
-				<p> <a href="#">Books</a> </p>
-				<p> <a href="#">Dance</a> </p>
-				<p> <a href="#">Movies</a> </p>
-				<p> <a href="#">Music</a> </p>
-				<p> <a href="#">Pop Culture</a> </p>
-				<p> <a href="#">Television</a> </p>
-				<p> <a href="#">Theater</a> </p>
-				<p> <a href="#">Video: Arts</a> </p>
+				<p> <a onclick="openForm()" href="#">Today's Arts </a> </p>
+				<p> <a onclick="openForm()" href="#">Art & Design</a> </p>
+				<p> <a onclick="openForm()" href="#">Books</a> </p>
+				<p> <a onclick="openForm()" href="#">Dance</a> </p>
+				<p> <a onclick="openForm()" href="#">Movies</a> </p>
+				<p> <a onclick="openForm()" href="#">Music</a> </p>
+				<p> <a onclick="openForm()" href="#">Pop Culture</a> </p>
+				<p> <a onclick="openForm()" href="#">Television</a> </p>
+				<p> <a onclick="openForm()" href="#">Theater</a> </p>
+				<p> <a onclick="openForm()" href="#">Video: Arts</a> </p>
 			</div>
 			<div class="living">
 				<h5>LIVING</h5>
-				<p> <a href="#"> At Home</a> </p>
-				<p> <a href="#">Automobiles</a> </p>
-				<p> <a href="#">Games</a> </p>
-				<p> <a href="#">Education</a> </p>
-				<p> <a href="#">Food</a> </p>
-				<p> <a href="#">Health</a> </p>
-				<p> <a href="#">Jobs</a> </p>
-				<p> <a href="#">Love</a> </p>
-				<p> <a href="#">Magazine</a> </p>
-				<p> <a href="#">Parenting</a> </p>
-				<p> <a href="#">Real Estate</a> </p>
-				<p> <a href="#">Recipes</a> </p>
-				<p> <a href="#">Style</a> </p>
-				<p> <a href="#">T Magazine</a> </p>
-				<p> <a href="#">Travel</a> </p>
+				<p> <a onclick="openForm()" href="#"> At Home</a> </p>
+				<p> <a onclick="openForm()" href="#">Automobiles</a> </p>
+				<p> <a onclick="openForm()" href="#">Games</a> </p>
+				<p> <a onclick="openForm()" href="#">Education</a> </p>
+				<p> <a onclick="openForm()" href="#">Food</a> </p>
+				<p> <a onclick="openForm()" href="#">Health</a> </p>
+				<p> <a onclick="openForm()" href="#">Jobs</a> </p>
+				<p> <a onclick="openForm()" href="#">Love</a> </p>
+				<p> <a onclick="openForm()" href="#">Magazine</a> </p>
+				<p> <a onclick="openForm()" href="#">Parenting</a> </p>
+				<p> <a onclick="openForm()" href="#">Real Estate</a> </p>
+				<p> <a onclick="openForm()" href="#">Recipes</a> </p>
+				<p> <a onclick="openForm()" href="#">Style</a> </p>
+				<p> <a onclick="openForm()" href="#">T Magazine</a> </p>
+				<p> <a onclick="openForm()" href="#">Travel</a> </p>
 			</div>
 			<div class="more">
 				<h5>MORE</h5>
-				<p> <a href="#"> Reader Center</a> </p>
-				<p> <a href="#">Wirecutter</a> </p>
-				<p> <a href="#">Live Events</a> </p>
-				<p> <a href="#">The Learning Network</a> </p>
-				<p> <a href="#">Tools & Services</a> </p>
-				<p> <a href="#">Multimedia</a> </p>
-				<p> <a href="#">Photography</a> </p>
-				<p> <a href="#">Video</a> </p>
-				<p> <a href="#">Newsletters</a> </p>
-				<p> <a href="#">TimesMachine</a> </p>
-				<p> <a href="#">NYT Store</a> </p>
-				<p> <a href="#">Times Journeys</a> </p>
-				<p> <a href="#">Manage My Account</a> </p>
+				<p> <a onclick="openForm()" href="#"> Reader Center</a> </p>
+				<p> <a onclick="openForm()" href="#">Wirecutter</a> </p>
+				<p> <a onclick="openForm()" href="#">Live Events</a> </p>
+				<p> <a onclick="openForm()" href="#">The Learning Network</a> </p>
+				<p> <a onclick="openForm()" href="#">Tools & Services</a> </p>
+				<p> <a onclick="openForm()" href="#">Multimedia</a> </p>
+				<p> <a onclick="openForm()" href="#">Photography</a> </p>
+				<p> <a onclick="openForm()" href="#">Video</a> </p>
+				<p> <a onclick="openForm()" href="#">Newsletters</a> </p>
+				<p> <a onclick="openForm()" href="#">TimesMachine</a> </p>
+				<p> <a onclick="openForm()" href="#">NYT Store</a> </p>
+				<p> <a onclick="openForm()" href="#">Times Journeys</a> </p>
+				<p> <a onclick="openForm()" href="#">Manage My Account</a> </p>
 			</div>
 			<div class="subscribe">
 				<h5>SUBSCRIBE</h5>
@@ -549,35 +570,35 @@
 					<h4>Digital Subscriptions</h4>
 					<h4>Games</h4>
 					<h4>Cooking</h4>
-					<p> <a href="#">Email Newsletters </a> </p>
-					<p> <a href="#"> Corporate Subscriptions</a> </p>
-					<p> <a href="#">Education Rate</a> </p>
+					<p> <a onclick="openForm()" href="#">Email Newsletters </a> </p>
+					<p> <a onclick="openForm()" href="#"> Corporate Subscriptions</a> </p>
+					<p> <a onclick="openForm()" href="#">Education Rate</a> </p>
 				</div>
 				<div class="bottom">
-					<p> <a href="#">Mobile Applications</a> </p>
-					<p> <a href="#">Replica Edition</a> </p>
-					<p> <a href="#">International</a> </p>
-					<p> <a href="#">Canada</a> </p>
-					<p> <a href="#">Español</a> </p>
-					<p> <a href="#">中文网</a> </p>
+					<p> <a onclick="openForm()" href="#">Mobile Applications</a> </p>
+					<p> <a onclick="openForm()" href="#">Replica Edition</a> </p>
+					<p> <a onclick="openForm()" href="#">International</a> </p>
+					<p> <a onclick="openForm()" href="#">Canada</a> </p>
+					<p> <a onclick="openForm()" href="#">Español</a> </p>
+					<p> <a onclick="openForm()" href="#">中文网</a> </p>
 				</div>
 			</div>
 		</div>
 		<div class="footer2Con">
-			<p> <a href="#">© 2021 The New York Times Company</a> </p>
-			<p> <a href="#">NYTCo </a> </p>
-			<p> <a href="#">Contact Us </a> </p>
-			<p> <a href="#"> Accessibility</a> </p>
-			<p> <a href="#">Work with us</a> </p>
-			<p> <a href="#"> Advertise </a> </p>
-			<p> <a href="#">T Brand Studio</a> </p>
-			<p> <a href="#">Your Ad Choices </a> </p>
-			<p> <a href="#"> Privacy Policy</a> </p>
-			<p> <a href="#">Terms of Service </a> </p>
-			<p> <a href="#"> Terms of Sale</a> </p>
-			<p> <a href="#">Site Map</a> </p>
-			<p> <a href="#"> Help</a> </p>
-			<p> <a href="#"> Subscriptions </a> </p>
+			<p> <a onclick="openForm()" href="#">© 2021 The New York Times Company</a> </p>
+			<p> <a onclick="openForm()" href="#">NYTCo </a> </p>
+			<p> <a onclick="openForm()" href="#">Contact Us </a> </p>
+			<p> <a onclick="openForm()" href="#"> Accessibility</a> </p>
+			<p> <a onclick="openForm()" href="#">Work with us</a> </p>
+			<p> <a onclick="openForm()" href="#"> Advertise </a> </p>
+			<p> <a onclick="openForm()" href="#">T Brand Studio</a> </p>
+			<p> <a onclick="openForm()" href="#">Your Ad Choices </a> </p>
+			<p> <a onclick="openForm()" href="#"> Privacy Policy</a> </p>
+			<p> <a onclick="openForm()" href="#">Terms of Service </a> </p>
+			<p> <a onclick="openForm()" href="#"> Terms of Sale</a> </p>
+			<p> <a onclick="openForm()" href="#">Site Map</a> </p>
+			<p> <a onclick="openForm()" href="#"> Help</a> </p>
+			<p> <a onclick="openForm()" href="#"> Subscriptions </a> </p>
 		</div>
 		<footer onclick="openForm()">
 			<p>Access more of The Times by creating a free account or logging in.</p>
