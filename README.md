@@ -1,8 +1,10 @@
 
    # NewYorkTimes-Project
 
-   First project for Microverse HTML/CSS course 
+   First project for Microverse HTML/CSS course
+
    I'ts a copy of a New York Times article
+   
    To open the form "Click" on any button or link
   
 ![alt text](images/screenshot.png "Screenshot of my project")
@@ -15,7 +17,7 @@
     
    + ###  HTML
    + ### CSS
-   + ### JavaScript (VERY BASIC/Just to open the Form)
+   + ### JavaScript (VERY BASIC)
       
             
 ## Responsive:

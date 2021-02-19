@@ -217,6 +217,32 @@ strong a {
   font-size: 15px;
 }
 
+.createAccount a {
+  color: rgb(80, 80, 247);
+  text-decoration: none;
+}
+
+.footerCon a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer2Con a {
+  color: rgb(116, 116, 116);
+  float: left;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.firstLeft a {
+  color: blue;
+  text-decoration: none;
+}
+
+.navBarMiddle a:hover {
+  text-decoration: underline;
+}
+
 .navBarLogo {
   margin-top: -40px;
   padding-bottom: 10px;
@@ -300,11 +326,6 @@ iframe {
   padding-bottom: 20px;
 }
 
-.createAccount a {
-  color: rgb(80, 80, 247);
-  text-decoration: none;
-}
-
 #createAcTop {
   border-top: rgb(184, 184, 184) solid 1px;
   padding-top: 15px;
@@ -336,26 +357,9 @@ iframe {
   margin: -200px 50px 0;
 }
 
-.footerCon a {
-  color: black;
-  text-decoration: none;
-}
-
-.footer2Con a {
-  color: rgb(116, 116, 116);
-  float: left;
-  margin-right: 15px;
-  text-decoration: none;
-}
-
 #dontShow {
   cursor: pointer;
   color: rgb(71, 71, 71);
-}
-
-.firstLeft a {
-  color: blue;
-  text-decoration: none;
 }
 
 .first1 p,
@@ -895,6 +899,20 @@ footer:hover {
   z-index: 1;
   float: right;
   padding: 15px;
+}
+
+.exp {
+  background-image: url("images/expand.png");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+
+.col {
+  background-image: url("images/collapse.png.png");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  margin-top: 15px;
 }
 
 .footerMax {

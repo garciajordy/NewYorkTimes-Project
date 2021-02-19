@@ -29,6 +29,9 @@ function footerOpen() {
         expand.innerHTML = "collapse"
         footertxt.innerHTML = "Thanks for reading The Times"
         footertxt.style.fontWeight = "900"
+        arrow.classList = ""
+        arrow.classList.add("col")
+
     }
     else {
         foot.style.marginBottom = "-200px "
@@ -36,6 +39,8 @@ function footerOpen() {
         footertxt.style.fontWeight = "100"
         expand.innerHTML = "expand"
         footertxt.innerHTML = "Access more of The Times by creating a free account or logging in."
+        arrow.classList = ""
+        arrow.classList.add("exp")
 
     }
 
