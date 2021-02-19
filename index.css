@@ -110,8 +110,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  border-bottom: rgb(219, 219, 219) solid 1px;
 }
 
 li {
@@ -182,9 +180,10 @@ li a {
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
   background-color: white;
-  box-shadow: gray 0 0 2px;
+  box-shadow: rgb(185, 185, 185) 0 1px 3px;
   z-index: 1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -259,9 +258,9 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  min-height: 50px;
   background-color: white;
-  box-shadow: gray 0 0 2px;
+  border: rgb(212, 212, 212) solid 1px;
   z-index: 1;
 }
 
