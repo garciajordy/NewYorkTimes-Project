@@ -217,6 +217,10 @@ strong a {
   font-size: 15px;
 }
 
+.navBarMiddle a:hover {
+  text-decoration: underline;
+}
+
 .navBarLogo {
   margin-top: -40px;
   padding-bottom: 10px;
@@ -895,6 +899,20 @@ footer:hover {
   z-index: 1;
   float: right;
   padding: 15px;
+}
+
+.exp {
+background-image: url("images/expand.png");
+background-size: 15px 15px;
+background-repeat: no-repeat;
+margin-top: 15px;
+}
+
+.col {
+  background-image: url("images/collapse.png.png");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  margin-top: 15px;
 }
 
 .footerMax {
